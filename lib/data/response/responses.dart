@@ -8,13 +8,6 @@ class BaseResponse {
   bool? status;
   @JsonKey(name: "message")
   String? message;
-
-  // // from json
-  // factory BaseResponse.fromJson(Map<String, dynamic> json) =>
-  //     _$BaseResponseFromJson(json);
-  //
-  // // to json
-  // Map<String, dynamic> toJson() => _$BaseResponseToJson(this);
 }
 
 @JsonSerializable()
